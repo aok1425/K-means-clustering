@@ -14,7 +14,7 @@ feature 5: avg % of each pt they funded, giving them major points if they fully 
 import pg, pandas as pd, numpy as np
 from math import log
 #conn = pg.connect(dbname="postgres", host="localhost", user="postgres")
-conn = pg.connect(dbname="watsi", host="localhost", user="postgres", passwd='presario')
+conn = pg.connect(dbname="watsi", host="localhost", user="postgres", passwd='password')
 
 
 ### Feature 1
