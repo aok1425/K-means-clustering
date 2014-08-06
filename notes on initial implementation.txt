@@ -1,0 +1,12 @@
+notes on initial implementation
+to segment watsi donors
+
+
+# grabbing the following data for k-means. i will then need to normalize the data.
+"""
+feature 1: total amt they donated/days they've existed as a member
+feature 2: avg # of days btwn donations
+feature 3: # times they donated/days they've existed as a member
+feature 4: avg tip/amt donated
+feature 5: avg % of each pt they funded, giving them major points if they fully funded a pt or funded mowt of that ptd
+"""
