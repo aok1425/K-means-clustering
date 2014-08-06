@@ -1,4 +1,4 @@
-#K-means clustering using NumPy: how many groups can we split donors into?
+#How many groups can we split donors into?
 After taking Andrew Ng's Coursera course on machine learning, I ported his K-means clustering algorithm using the Matlab code from one of the exercises. I used this algorithm to answer the question: how many groups can we split donors into?
 
 Ideally, K-means clustering can segment the data into groups, as shown here:
