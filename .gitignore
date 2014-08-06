@@ -1,0 +1,7 @@
+venv
+*.pyc
+k means in python using classes.py
+k means in python.py
+grabbing SQL data for k-means clustering.py
+old/
+.DS_Store
