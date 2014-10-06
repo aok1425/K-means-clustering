@@ -1,15 +1,18 @@
 #How many groups can we split donors into?
 After taking Andrew Ng's Coursera course on machine learning, I ported his K-means clustering algorithm using the Matlab code from one of the exercises. I used this algorithm to answer the question: how many groups can we split donors into?
 
-Ideally, K-means clustering can segment the data into groups, as shown here:
+Let's say that our data on donors has 2 attributes, which we plot here on the X- and Y-axes, respectively.
+
 ![intended](https://raw.githubusercontent.com/aok1425/k-means-clustering/master/images/intended.png "")
 
-My data, however, doesn't look like this. Below shows each attributes plotted against each one of the other attributes. The histograms are for when an attribute is plotted against itself. As opposed to the previous 2-dimensional plot, this data is 4-dimensional.
+From these 2 attributes, the data above neatly clusters into 3 groups.
+
+But, my data doesn't look like this. I have 4 attributes for each donor, and below I plot each attribute against each other attribute. As opposed to the previous 2-dimensional plot, this data is 4-dimensional.
 
 ![mine](https://raw.githubusercontent.com/aok1425/k-means-clustering/master/images/mine.png "")
 
 ##How many groups of donors are there ideally?
-We can define an inaccuracy metric of having `n` groups as the distance between each one of the points belonging to a group, and the center of that group.
+We can define an inaccuracy metric of having `n` groups as the distance between each one of the points belonging to a group, and the center of that group, as shown in the first figure.
 
 This graph shows the amount of inaccuracy for having `n` number of groups. 
 
@@ -33,4 +36,4 @@ We can visually see that the data splits well into 4 groups.
 ##Conclusion
 We compressed the 4-dimensional data to visually observe that using the 4 attributes, donors can neatly be split into 4 different groups.
 
-We can then further inspect the differences between these groups, and market differently to a specific group, for instance.
+We can then further inspect the differences between these groups of donors, and market differently to a specific group, for instance.
